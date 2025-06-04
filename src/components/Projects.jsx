@@ -65,7 +65,7 @@ const Projects = () => {
   };
 
   return (
-    <div id = "projects" className="relative w-11/12 md:w-3/4 mx-auto mt-28 py-12 px-6">
+    <div id = "projects" className="relative w-11/12 md:w-3/4 mx-auto mt-12 py-8 px-6">
       <style>{`
         .glass-container {
           background: rgba(255, 255, 255, 0.1);

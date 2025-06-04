@@ -37,7 +37,7 @@ const About = () => {
 
       <motion.section
   id="about"
-  className="relative w-11/12 md:w-3/4 mx-auto py-12 px-6 rounded-lg shadow-lg overflow-hidden animated-gradient-bg"
+  className="relative w-11/12 md:w-3/4 mx-auto mt-12 py-8 px-6 rounded-lg shadow-lg overflow-hidden animated-gradient-bg"
   initial={{ opacity: 0, y: 40 }}
   whileInView={{ opacity: 1, y: 0 }}
   transition={{ duration: 1 }}
@@ -45,7 +45,7 @@ const About = () => {
 >
   <motion.div className="relative flex flex-col md:flex-row items-center justify-between">
     {/* Left: Image with margin */}
-    <div className="w-full md:w-[35%] flex justify-center mx-2 my-2">
+    <div className="w-full md:w-[35%] flex justify-center mx-1 my-2">
       <img
         src={profileImg}
         alt="Abhay Gupta"
@@ -59,7 +59,7 @@ const About = () => {
       whileInView={{ opacity: 1, x: 0 }}
       transition={{ duration: 1 }}
       viewport={{ once: true }}
-      className="w-full md:w-[40%] text-center md:text-left mx-4 my-4"
+      className="w-full md:w-[40%] text-center md:text-left mx-1 my-4"
     >
       <h2 className="text-4xl font-bold text-gray-900 dark:text-white">Hi Abhay here,</h2>
       <h2 className="text-4xl font-bold text-gray-900 dark:text-black leading-snug">

@@ -6,6 +6,9 @@ import Projects from './components/Projects'
 import Experience from './components/Experience'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import Certifications from './components/Certifications'
+import SideTextAnimation from './components/SideTextAnimation'
+import AnimatedCursor from "./components/AnimatedCursor";
 
 const App = () => {
   return (
@@ -21,14 +24,18 @@ const App = () => {
 
   }
 `}</style>
-
+      <AnimatedCursor />
+      <SideTextAnimation />
       <Header />
-      <About />
-      <Skills />
-      <Projects />
-      <Experience />
-      <Contact />
-      <Footer />
+      <main > {/* Padding for fixed Header */}
+        <About />
+        <Skills />
+        <Projects />
+        <Experience />
+        <Certifications />
+        <Contact />
+        <Footer />
+      </main>
     </div>
   );
 };
